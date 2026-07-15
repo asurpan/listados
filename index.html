@@ -3,99 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - Listados SAS (No Oficial)</title>
+    <title>Rastreador Bolsa SAS 2023 - Consulta tu puesto en toda Andalucía</title>
+    
+    <!-- SEO / ASO: Palabras clave para atraer usuarios de Google -->
+    <meta name="description" content="Consulta tu posición en la Bolsa del SAS 2023 de forma rápida en toda Andalucía. Incluye Sevilla, Málaga, Cádiz, Granada y más de 25 categorías profesionales.">
+    <meta name="keywords" content="Bolsa SAS 2023, SAS Andalucía, Listados SAS, Celador, Enfermería, TCAE, Pinche, Cocina, Bolsa SAS Sevilla, Bolsa SAS Málaga, Bolsa SAS Cádiz">
+
+    <!-- Social Media (Open Graph): Para que al compartir en WhatsApp se vea profesional -->
+    <meta property="og:title" content="Rastreador Bolsa SAS 2023 - ¡Consulta tu puesto!">
+    <meta property="og:description" content="Descubre tu posición global y por hospitales en toda Andalucía. Herramienta gratuita e inteligente.">
+    <meta property="og:url" content="https://asurpan.github.io/listados/">
+    <meta property="og:type" content="website">
+
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f7f6;
+        :root { 
+            --sas-green: #007A33; /* Verde Oficial SAS */
+            --sas-gold: #FFD700; 
         }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; padding: 0; 
+            background: #f4f7f6; color: #333; 
         }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
+        header { 
+            background: var(--sas-green); 
+            color: white; 
+            padding: 50px 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-        h2 {
-            color: #2980b9;
-            margin-top: 25px;
+        .container { 
+            max-width: 850px; 
+            margin: 20px auto; 
+            background: white; 
+            padding: 40px; 
+            border-radius: 16px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
         }
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
+        .cta-box { 
+            text-align: center; 
+            padding-bottom: 40px; 
+            border-bottom: 2px solid #f0f0f0; 
+            margin-bottom: 40px; 
         }
-        .disclaimer {
-            background: #fff3cd;
-            border: 1px solid #ffeeba;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            font-weight: bold;
-            color: #856404;
+        .cta-box h2 { color: var(--sas-green); font-size: 1.8em; margin-bottom: 10px; font-weight: 900; }
+        .btn { 
+            display: inline-block; 
+            background: var(--sas-green); 
+            color: white; 
+            padding: 18px 40px; 
+            border-radius: 50px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 1.2em;
+            margin: 20px 0;
+            box-shadow: 0 8px 20px rgba(0,122,51,0.3);
+            transition: transform 0.2s;
         }
-        footer {
-            margin-top: 40px;
+        .btn:hover { transform: scale(1.05); background: #005C26; }
+        
+        /* Estilos Legales para que Google los reconozca como Política de Privacidad */
+        .legal-section { line-height: 1.7; text-align: justify; }
+        h1, h2 { color: var(--sas-green); margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .disclaimer { 
+            background: #fff3cd; 
+            border: 1px solid #ffeeba; 
+            padding: 20px; 
+            border-radius: 10px; 
+            font-weight: bold; 
+            color: #856404; 
+            margin-bottom: 30px;
             font-size: 0.9em;
-            color: #7f8c8d;
-            text-align: center;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
         }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+        footer { text-align: center; padding: 40px; color: #999; font-size: 0.9em; }
+        footer a { color: var(--sas-green); text-decoration: none; font-weight: bold; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Política de Privacidad</h1>
-        <p>Última actualización: <strong>15 de julio de 2024</strong></p>
 
-        <div class="disclaimer">
-            AVISO: Esta es una herramienta de consulta NO OFICIAL. No tenemos vinculación con el Servicio Andaluz de Salud (SAS). Los datos mostrados son públicos y se obtienen directamente de los servidores oficiales del SAS.
+    <header>
+        <div style="max-width: 900px; margin: 0 auto;">
+            <h1 style="font-size: 2.5em; margin: 0; font-weight: 900;">Rastreador Bolsa SAS 2023</h1>
+            <p style="font-size: 1.2em; opacity: 0.9; margin-top: 10px;">Consultas en toda Andalucía | 8 Provincias | +25 Categorías</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- SECCIÓN COMERCIAL Y SEO -->
+        <div class="cta-box">
+            <h2>¿En qué puesto estás realmente?</h2>
+            <p>Rastreamos por ti las posiciones globales y por hospitales (V. Rocío, Regional de Málaga, Puerta del Mar, Reina Sofía, etc.) con datos oficiales 100% actualizados.</p>
+            
+            <a href="https://play.google.com/store/apps/details?id=com.sagon.listados" class="btn">DESCARGAR GRATIS EN PLAY STORE</a>
+            
+            <div style="margin-top: 10px; font-size: 0.85em; color: #666;">
+                Soporta: Enfermería, TCAE, Celador, Cocinero, Mantenimiento, Administración y más.
+            </div>
         </div>
 
-        <p>La aplicación <strong>Listados SAS</strong> (en adelante, "la Aplicación") se compromete a proteger su privacidad. Esta política describe cómo se maneja la información en nuestra aplicación.</p>
+        <!-- SECCIÓN DE PRIVACIDAD (CUMPLIMIENTO OBLIGATORIO) -->
+        <div class="legal-section">
+            <h1 id="privacidad">Política de Privacidad</h1>
+            <p>Última actualización: <strong>15 de julio de 2024</strong></p>
 
-        <h2>1. Recopilación de Información</h2>
-        <p>La Aplicación <strong>no recopila datos personales</strong> (como nombre, correo electrónico o dirección) de forma directa. La funcionalidad principal de consulta de listados se realiza mediante el procesamiento de información pública disponible en la web.</p>
+            <div class="disclaimer">
+                AVISO LEGAL: Esta es una herramienta de consulta INDEPENDIENTE y NO OFICIAL. No existe vinculación alguna con el Servicio Andaluz de Salud (SAS) ni con la Junta de Andalucía. Los datos mostrados se obtienen exclusivamente de fuentes públicas oficiales mediante procesamiento técnico.
+            </div>
 
-        <h2>2. Publicidad (Google AdMob)</h2>
-        <p>Utilizamos servicios de terceros para mostrar anuncios que ayudan a mantener la Aplicación gratuita. Estos proveedores, incluido Google (AdMob), pueden utilizar cookies o identificadores de dispositivos para mostrar anuncios basados en sus visitas anteriores a esta u otras aplicaciones.</p>
-        <p>Puede optar por no recibir publicidad personalizada visitando la <a href="https://www.google.com/settings/ads" target="_blank">Configuración de anuncios de Google</a>.</p>
+            <p>La aplicación <strong>Rastreador Bolsa SAS 2023</strong> (en adelante, "la Aplicación") se compromete a proteger la privacidad de sus usuarios. Este documento detalla cómo gestionamos la información técnica necesaria para ofrecer el servicio.</p>
 
-        <h2>3. Uso de la Aplicación</h2>
-        <p>La Aplicación utiliza la conexión a Internet para descargar los listados actualizados de fuentes oficiales. No almacenamos su historial de búsqueda ni compartimos sus consultas con terceros, exceptuando los datos técnicos necesarios para el funcionamiento de los anuncios de Google.</p>
+            <h2>1. Recopilación de Información</h2>
+            <p>La Aplicación <strong>no recopila ni almacena datos personales privados</strong> (como números de teléfono completos, correos electrónicos personales o direcciones físicas) en servidores externos. El funcionamiento se basa en actuar como un visualizador especializado de la información pública disponible en la web oficial del SAS.</p>
 
-        <h2>4. Eliminación de Datos</h2>
-        <p>Aunque no recopilamos datos personales identificables directamente, si desea solicitar la eliminación de cualquier identificador asociado a su dispositivo recopilado por servicios de terceros (como AdMob), puede hacerlo enviando un correo electrónico a <strong>Appsaiber@gmail.com</strong>.</p>
-        <p>También puede gestionar la eliminación de sus datos de publicidad directamente en los ajustes de su dispositivo Android (Ajustes > Google > Anuncios > Eliminar ID de publicidad).</p>
+            <h2>2. Publicidad de Terceros (Google AdMob)</h2>
+            <p>Utilizamos el servicio de Google AdMob para mostrar anuncios que permiten mantener la aplicación gratuita. Google puede utilizar identificadores de publicidad únicos de su dispositivo para segmentar los anuncios de forma anónima. Usted puede gestionar o eliminar estos identificadores en los ajustes de su dispositivo Android (Ajustes de Google > Anuncios).</p>
 
-        <h2>5. Seguridad</h2>
-        <p>Aunque no recopilamos datos personales, nos esforzamos por garantizar que la experiencia de uso sea segura. La Aplicación utiliza protocolos estándar de comunicación (HTTPS) para la obtención de datos.</p>
+            <h2>3. Uso de Caché Local</h2>
+            <p>Para garantizar una experiencia de usuario rápida y reducir la carga en los servidores públicos, la Aplicación utiliza una <strong>caché local temporal de 7 días</strong>. Estos datos se almacenan exclusivamente de forma interna en su dispositivo móvil y no son compartidos con terceros.</p>
 
-        <h2>6. Cambios en esta Política</h2>
-        <p>Podemos actualizar nuestra Política de Privacidad de vez en cuando. Se recomienda revisar esta página periódicamente para ver cualquier cambio.</p>
+            <h2>4. Seguridad en las Comunicaciones</h2>
+            <p>Todas las peticiones de datos se realizan mediante protocolos de comunicación segura (HTTPS) directamente contra los servidores de origen, garantizando la integridad de la información consultada.</p>
 
-        <h2>7. Contacto</h2>
-        <p>Si tiene alguna pregunta sobre esta Política de Privacidad o desea realizar una solicitud de eliminación de datos, puede contactarnos en: <strong>Appsaiber@gmail.com</strong>.</p>
+            <h2>5. Solicitud de Eliminación de Datos</h2>
+            <p>Aunque no almacenamos perfiles identificables, si desea solicitar la eliminación de cualquier identificador técnico asociado a su dispositivo recopilado por los servicios de publicidad, puede contactarnos en: <strong>Appsaiber@gmail.com</strong>.</p>
+
+            <h2>6. Contacto</h2>
+            <p>Si tiene alguna duda sobre esta Política de Privacidad o requiere soporte, puede escribirnos a: <a href="mailto:Appsaiber@gmail.com">Appsaiber@gmail.com</a>.</p>
+        </div>
 
         <footer>
-            <p>&copy; 2024 Listados SAS - Herramienta Independiente de Consulta.</p>
-            <p>Construido para ofrecer transparencia y seguridad al usuario.</p>
+            <p>&copy; 2024 Rastreador SAS - Herramienta Profesional de Consulta para Andalucía.</p>
+            <p>Optimizada para el máximo rendimiento y transparencia.</p>
         </footer>
     </div>
 </body>
